@@ -8,7 +8,7 @@ Libraries: pandas, numpy, sklearn, matplotlib, seaborn
 
 Algorithms: Decision Tree, Random Forest
 🔍 Project Steps:
-1. Data Exploration and Preprocessing
+1. Data Exploration and Preprocessing: 
 Load the dataset
 
 Check for missing values
@@ -17,10 +17,9 @@ Encode the categorical target variable (Kyphosis: yes → 1, no → 0)
 
 Split the data into training and testing sets
 
-2. Decision Tree Model
+2. Decision Tree Model:
 Train a Decision Tree Classifier using sklearn.tree.DecisionTreeClassifier
 
-Visualize the tree using plot_tree or graphviz
 
 Evaluate model using:
 
@@ -30,7 +29,7 @@ Accuracy
 
 Precision, Recall, F1-score
 
-3. Random Forest Model
+3. Random Forest Model:
 Train a Random Forest Classifier using sklearn.ensemble.RandomForestClassifier
 
 Use feature importance to analyze key predictors
